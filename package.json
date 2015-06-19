@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ShawnChambless/ExpressLecture/issues"
   },
-  "homepage": "https://github.com/ShawnChambless/ExpressLecture#readme"
+  "homepage": "https://github.com/ShawnChambless/ExpressLecture#readme",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
 }

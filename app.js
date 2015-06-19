@@ -1,8 +1,10 @@
 'use strict';
 
-module.exports = function(req, res) {
+module.exports = function() {
+    var express = require('express');
+    var app = express();
 
-    
+    app.use(function(req, res) {
 
     var messages = [];
 
@@ -26,4 +28,6 @@ module.exports = function(req, res) {
         return;
     }
     res.end('Hello');
+    });
+return app;
 }
